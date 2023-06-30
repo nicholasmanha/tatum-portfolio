@@ -95,6 +95,10 @@ footer{
   top:10px;
 }
 
+.navshift{
+  height:150px;
+}
+
 @media (max-width: 767px) {
   .grid-container{
     grid-template-columns: auto;
