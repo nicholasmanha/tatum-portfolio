@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700&display=swap');
+
+.centerlogo{
+  
+  margin:auto;
+}
+.photocontainer{
+    min-height: 100vh;
+    
+    display:flex;
+    align-items: center;
+  
+    justify-content: center;
+}
+.desc{
+  overflow: hidden;
+    height:450px;
+    position:relative;
+    margin-bottom:2rem;
+    line-height: 1.5;
+    color:black;
+    font-size:0.95rem;
+}
+.description{
+  margin-bottom:2rem;
+}
+.desctitle{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size:1.5em;
+    line-height: 2;
+    margin-bottom:1rem;
+    font-weight:500;
+    color:black;
+}
+.triangle {
+  margin:-9rem 0rem;
+  top:0;
+  right:0;
+  position: absolute;
+  top: 10%;
+  left: 90%;
+  width: 30%;
+  height: 30%;
+  -webkit-transform: rotate(45deg);
+  background: #ffe35b;
+}
+.rightpanel{
+  overflow: hidden;
+    border-radius:0px 10px 10px 0px;
+    border: 4px solid #ffe35b;
+    
+    border-left-width:0;
+    position:relative;
+    font-family: Helvetica, sans-serif;
+    padding: 2.3rem 2.2rem;
+    height:600px;
+    /*background: #e26137;*/
+    width:1900px;
+}
+.social-icons {
+    position:absolute;
+    display: flex;
+    margin-top: 0.5rem;
+    
+    left:0px;
+    bottom:0px;
+  }
+  
+  .social-icons a {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 0.5rem;
+    transition: 0.3s;
+  }
+  .social-icons a img{
+    height:25px;
+  }
+  
+  .social-icons a:hover {
+    transform: scale(1.05);
+  }
+.title{
+    margin-bottom:1.5rem;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size:2.5em;
+    line-height: 1;
+    font-weight:900;
+    color:black;
+    
+}
+.robphoto{
+    width: 50%; /* width of container */
+    height: 600px; /* height of container */
+    object-fit: cover;
+    object-position: 30% 100%;
+    border-radius:10px 0px 0px 10px;
+    
+}
+@media (max-width: 420px) {
+  .centerlogo{
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:60px;
+    margin-bottom:60px;
+  }
+  .social-icons{
+    position: relative;
+    margin-top:2rem;
+  }
+  .desc{
+    overflow:visible;
+    height:auto;
+  }
+  .robphoto{
+    display: none;
+  }
+  .rightpanel{
+    padding-bottom:0;
+    height:100%;
+    border-radius: 10px;
+    border-width:4px;
+    padding-right:10px;
+    padding-left:10px;
+  }
+  .triangle{
+    width:50%;
+    left:90%;
+    top:0;
+  }
+}

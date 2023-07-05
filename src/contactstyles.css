@@ -71,7 +71,7 @@ form {
   position: relative;
 }
 
-.title {
+.title-contact {
   
   color: #fff;
   line-height: 1.5;
@@ -200,7 +200,7 @@ textarea.input {
   
 }
 
-.contact-info .title {
+.contact-info .title-contact {
   color: black;
 }
 
@@ -233,12 +233,12 @@ textarea.input {
   color: #333;
 }
 
-.social-icons {
+.social-icons-contact {
   display: flex;
   margin-top: 0.5rem;
 }
 
-.social-icons a {
+.social-icons-contact a {
   position: relative;
   width: 35px;
   height: 35px;
@@ -250,11 +250,11 @@ textarea.input {
   margin-right: 0.5rem;
   transition: 0.3s;
 }
-.social-icons a img{
+.social-icons-contact a img{
   width:25px;
 }
 
-.social-icons a:hover {
+.social-icons-contact a:hover {
   transform: scale(1.05);
 }
 
@@ -322,7 +322,7 @@ textarea.input {
     font-size: 0.8rem;
   }
 
-  .title {
+  .title-contact {
     font-size: 1.15rem;
   }
 

@@ -17,7 +17,7 @@ function sendEmail(){
 
 
 function focusFunc() {
-    alert("jeff")
+    
     let parent = this.parentNode;
     parent.classList.add("focus");
     

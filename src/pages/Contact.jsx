@@ -6,23 +6,32 @@ function Contact() {
   const onFocusName = () => setFocusedName(true);
   const onBlurName = () => setFocusedName(false);
 
+  const [name, setName] = useState('');
+
   const [focusedEmail, setFocusedEmail] = React.useState(false);
   const onFocusEmail = () => setFocusedEmail(true);
   const onBlurEmail = () => setFocusedEmail(false);
+
+  const [email, setEmail] = useState('');
 
   const [focusedPhone, setFocusedPhone] = React.useState(false);
   const onFocusPhone = () => setFocusedPhone(true);
   const onBlurPhone = () => setFocusedPhone(false);
 
+  const [phone, setPhone] = useState('');
+
   const [focusedMessage, setFocusedMessage] = React.useState(false);
   const onFocusMessage = () => setFocusedMessage(true);
   const onBlurMessage = () => setFocusedMessage(false);
+
+  const [message, setMessage] = useState('');
+
   return (
     <>
       <div className="containercontact">
         <div className="form">
           <div className="contact-info">
-            <h3 className="pb-5 title">Let's get in touch</h3>
+            <h3 className="pb-5 title-contact">Let's get in touch</h3>
 
             <div className="info">
               <div className="information">
@@ -41,7 +50,7 @@ function Contact() {
 
             <div className="social-media">
               <p>Connect with me :</p>
-              <div className="social-icons">
+              <div className="social-icons-contact">
                 <a href="#">
                   <img
                     src="media\media-icons\icon-facebook-red.png"
@@ -78,12 +87,13 @@ function Contact() {
             >
               <input type="hidden" name="_subject" value="new email"></input>
 
-              <h3 className="title">Contact me</h3>
-              <div className={`input-container${focusedName ? " focus" : ""}`}>
+              <h3 className="title-contact">Contact me</h3>
+              <div className={`input-container${(focusedName || name !== "") ? " focus" : ""}`}>
                 <input
                   type="text"
                   id="name"
                   name="name"
+                  onChange={event => setName(event.target.value)}
                   onFocus={onFocusName}
                   onBlur={onBlurName}
                   className="input"
@@ -92,11 +102,12 @@ function Contact() {
                 <label for="">Username</label>
                 <span>Username</span>
               </div>
-              <div className={`input-container${focusedEmail ? " focus" : ""}`}>
+              <div className={`input-container${(focusedEmail || email !== "") ? " focus" : ""}`}>
                 <input
                   type="email"
                   id="email"
                   name="email"
+                  onChange={event => setEmail(event.target.value)}
                   onFocus={onFocusEmail}
                   onBlur={onBlurEmail}
                   className="input"
@@ -105,11 +116,12 @@ function Contact() {
                 <label for="">Email</label>
                 <span>Email</span>
               </div>
-              <div className={`input-container${focusedPhone ? " focus" : ""}`}>
+              <div className={`input-container${(focusedPhone || phone !== "") ? " focus" : ""}`}>
                 <input
                   type="tel"
                   id="phone"
                   name="phone"
+                  onChange={event => setPhone(event.target.value)}
                   onFocus={onFocusPhone}
                   onBlur={onBlurPhone}
                   className="input"
@@ -119,11 +131,12 @@ function Contact() {
               </div>
               <div
                 className={`input-container textarea${
-                  focusedMessage ? " focus" : ""
+                  (focusedMessage || message !== "") ? " focus" : ""
                 }`}
               >
                 <textarea
                   name="message"
+                  onChange={event => setMessage(event.target.value)}
                   onFocus={onFocusMessage}
                   onBlur={onBlurMessage}
                   className="input"
