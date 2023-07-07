@@ -3,6 +3,7 @@ import "../Navbar.css";
 import { Outlet } from "react-router-dom";
 // // import React, { useState } from 'react';
 import NavLink from "../NavLink";
+import { Link } from "react-router-dom";
 
 export default function Root() {
   return (
@@ -10,12 +11,14 @@ export default function Root() {
       <header className="header">
         <nav className="navbar navbar-expand-lg fixed-top py-3">
           <div className="container">
+          <Link to="/">
             <a
               href="#"
               className="navbar-brand text-uppercase font-weight-bold"
             >
               <img className="logo" src="/media/roblogofinal.png" alt=""></img>
             </a>
+            </Link>
             <button
               type="button"
               data-toggle="collapse"

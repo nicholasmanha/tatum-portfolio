@@ -277,7 +277,11 @@ textarea.input {
     margin:20px;
   }
 
-
+  form,
+  .contact-info {
+    padding: 1.7rem 1.6rem;
+    border-radius: 10px 10px 0 0;
+  }
 
   .square {
     transform: translate(140%, 43%);
@@ -310,11 +314,7 @@ textarea.input {
   .square,
 
 
-  form,
-  .contact-info {
-    padding: 1.7rem 1.6rem;
-    border-radius: 10px 10px 0 0;
-  }
+  
 
   .text,
   .information,
