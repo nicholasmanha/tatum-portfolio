@@ -8,6 +8,7 @@ function Home() {
       <div className="main-logo-container">
         <img className="main-logo" src="/media/roblogomain.png" alt=""></img>
       </div>
+      <div id="dialog2" class="triangle_down1"></div>
       <div className="pb-5 container">
         <h1 id="films" className="mb-5 text-uppercase font-weight-bold">
           Films
