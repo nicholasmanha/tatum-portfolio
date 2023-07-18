@@ -1,5 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500;700&display=swap');
 
+.triangle_down1 {
+  position: absolute;
+  top: calc(100vh - 80px);
+  left: calc(50% - 30px);
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border-right: 0.2em solid black;
+  border-top: 0.2em solid black;
+  transform: rotate(135deg);
+  margin-right: 0.5em;
+  margin-left: 1.0em;
+  animation: jumpInfinite 1.5s infinite;
+  opacity: 1;
+  transition: opacity 0.5s ease-out;
+}
+.triangle_down1.active{
+  
+  transition: opacity 0.5s ease-out;
+  opacity: 0;
+}
 .main-logo-container{
   height: 100vh;
   position: relative;
