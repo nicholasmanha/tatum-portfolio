@@ -55,4 +55,4 @@ This is commonly because you are not using the embeded link for the video. Go to
 If your image isn't working, then you are likely copying the wrong link for it. A good rule of thumb is to right click on the image you want to use and hit "open image in new tab". Use the link to the tab that you just opened and it should work.
 ### What does "children" mean in the attributes?
 Children is whatever is in between the opening and closing tag of an element. 
-* Example, `<p> this is the children for this paragraph component </p>`
+* Example: `<p> this is the children for this paragraph component </p>`
