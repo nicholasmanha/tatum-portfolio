@@ -44,11 +44,15 @@ MovieListings are the basic component for displaying work you've done. They invo
 ### What files should I be touching?
 The only files you would want to be editing is the Experience.jsx file and MAYBE the Home.jsx file. They are in src > pages.
 ### How do I make a styled title? 
-Use an array with html in the element
+Use an array with html in any of the elements
 * Example: `title={["In the Middle", <small> - Coming Soon</small>]}`
 > Always use {} around an array.
 ### How do I use the `link` attribute?
 This too is an array. The first element of the array is the display text, the second element is the url. 
 * Example: `link={["Link Title", "link_url.com"]}`
 ### My video isn't working on the website!
-This is commonly because you are not using the embeded link for the video. Go to your video, click "share" and then embed, and copy the url in the code given.
+This is commonly because you are not using the embeded link for the video. Go to your video, click "share" and then embed, and copy the url in the code given.  
+If your image isn't working, then you are likely copying the wrong link for it. A good rule of thumb is to right click on the image you want to use and hit "open image in new tab". Use the link to the tab that you just opened and it should work.
+### What does "children" mean in the attributes?
+Children is whatever is in between the opening and closing tag of an element. 
+* Example, `<p> this is the children for this paragraph component </p>`
