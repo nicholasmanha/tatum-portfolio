@@ -1,7 +1,7 @@
 # Robert's Portfolio Documentation
 Portfolio for Robert Burke's films and productions. Built using React.
 ## MovieListing
-MovieListings arethe basic component for displaying work you've done. They involve a thumbnail of the media, a description of the media, and more. They are dynamic with the information given.
+MovieListings are the basic component for displaying work you've done. They involve a thumbnail of the media, a description of the media, and more. They are dynamic with the information given.
 ### Example 1
 *this example uses a video for the thumbnail*
 ```
