@@ -1,5 +1,14 @@
 # Robert's Portfolio Documentation
 Portfolio for Robert Burke's films and productions. Built using React.
+## Deploying
+You deploy your website by typing these commands into the console:
+`npm run build`
+`firebase deploy`
+if firebase is giving an error, you can try
+`firebase logout` followed by
+`firebase login`
+## Testing
+If you want to test what you've done, use `npm run dev` and then command+click on the link generated. To stop this local server, use ctrl+c in the terminal. 
 ## MovieListing
 MovieListings are the basic component for displaying work you've done. They involve a thumbnail of the media, a description of the media, and more. They are dynamic with the information given.
 ### Example 1
