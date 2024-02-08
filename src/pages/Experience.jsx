@@ -132,7 +132,7 @@ function Experience() {
             {/*  */}
           </div>
           <p className="mb-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi enim
+            Lorem ipsum dolor amet consectetur adipisicing elit. Modi enim
             minima nobis officia eum placeat rerum repellendus quasi dolorem,
             rem magnam, aliquid, sunt deleniti. Corporis quisquam quasi nulla
             voluptatum, assumenda fugiat dolor facere dignissimos! Nostrum sint
