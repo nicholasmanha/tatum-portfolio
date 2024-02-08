@@ -17,6 +17,7 @@ function MovieListing(props) {
 
           <p id="inthemiddledesc">{props.children}
             </p>
+            
           <ReadMore>
             {props.readmore}
           </ReadMore>
