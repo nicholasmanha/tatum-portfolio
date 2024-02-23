@@ -95,14 +95,21 @@ function Experience() {
     </MovieListing>
 
     <MovieListing
+    
             title="BONK Commercial"
-            url="https://www.instagram.com/reel/C3Vx78TJVV5/?utm_source=ig_embed&amp;utm_campaign=loading"
+            image={["https://i.ibb.co/q9FFDR3/bonk.png", "https://www.instagram.com/bonk.comics/reel/C3Vx78TJVV5/"]}
             tagline= "Sound Designer"
            
           >
             A commercial for comics startup Bonk. <br/>
     </MovieListing>
-
+    <MovieListing
+           title="Pizza Heroes"
+           url="https://www.youtube.com/embed/1GHbBpv376o?si=oLPxr6IqCylgk_JX"
+           tagline= "Sound Designer"
+         >
+           Two pizza store employees conspire against their boss. <br/>
+   </MovieListing>
     <MovieListing
             title="The Age of the Goldfish"
             url="https://www.youtube.com/embed/SndhddfBXDU?si=2qSRP_N7ZGgiX5kd"
@@ -111,7 +118,6 @@ function Experience() {
             A young man struggles with a breakup that forces him to come to terms with something more. <br/>
     </MovieListing>
 
-    </MovieListing>
             <MovieListing
               title="How You Get the Girl"
               url="https://www.youtube.com/embed/ZjypL4yugOg"
@@ -152,6 +158,18 @@ function Experience() {
               Animated Short Film <br></br>
               <br></br>- Emerson Independent Video Short Film
             </MovieListing>
+            <MovieListing
+           title="In the Waiting Room Videos"
+// url="https://www.youtube.com/embed/u_tQd5E9fRo?si=h0HOt0oErZSUHhJj" (Birds)
+// url="https://www.youtube.com/embed/DoXYWDD-lcA?si=waI7cJrvAtC1OlS3" (Knit)
+
+
+           url="https://www.youtube.com/embed/W5kB2y4hZ8w?si=CMy58yJYrqWO13UO"
+           tagline= "Sound Designer"
+         
+         >
+           In the Waiting Room is a multimedia stage play that ran November 2023 at Emerson College. I sound designed these videos as well as the sound effects for the stage.  <br/>
+   </MovieListing>
             <MovieListing
               title="The Heart and the Brain Trilogy"
               url="https://player.vimeo.com/video/734596672?h=638b42ead9"

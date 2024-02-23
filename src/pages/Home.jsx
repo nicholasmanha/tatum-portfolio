@@ -47,7 +47,7 @@ function Home() {
               "GoFundMe",
               "https://www.gofundme.com/f/in-the-middle-film?utm_source=customer&utm_medium=copy_link&utm_campaign=p_cf+share-flow-1",
             ]}
-            image="https://i.ibb.co/j619pCz/itmthumb.png"
+            image={["https://i.ibb.co/j619pCz/itmthumb.png"]}
             readmore="As the lead creative, logistical and technical head of In the Middle, I was in charge of seeing the films completion from start to finish. This included writing the feature length original screenplay, conducting all the casting and crew hiring, preparing all necessary documents for the day of filming, and ensuring a well run set when filming began. As co-editor of the project, I was in charge of calling all creative shots, piecing together the initial assembly cut, and refining any edits as needed."
           >
             An ambitious yet burnout photography student rushes to complete an
