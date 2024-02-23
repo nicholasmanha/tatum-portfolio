@@ -160,8 +160,6 @@ function Experience() {
             </MovieListing>
             <MovieListing
            title="In the Waiting Room Videos"
-// url="https://www.youtube.com/embed/u_tQd5E9fRo?si=h0HOt0oErZSUHhJj" (Birds)
-// url="https://www.youtube.com/embed/DoXYWDD-lcA?si=waI7cJrvAtC1OlS3" (Knit)
 
 
            url="https://www.youtube.com/embed/W5kB2y4hZ8w?si=CMy58yJYrqWO13UO"
@@ -169,6 +167,8 @@ function Experience() {
          
          >
            In the Waiting Room is a multimedia stage play that ran November 2023 at Emerson College. I sound designed these videos as well as the sound effects for the stage.  <br/>
+           <br></br><a href="https://www.youtube.com/watch?v=u_tQd5E9fRo">Birds</a> <br></br>
+              <a href="https://www.youtube.com/watch?v=DoXYWDD-lcA">Knit</a> <br></br>
    </MovieListing>
             <MovieListing
               title="The Heart and the Brain Trilogy"
