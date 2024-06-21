@@ -48,7 +48,7 @@ import ScrollToTop from "./ScrollToTop";
 // );
 
 const root = ReactDOM.createRoot(document.getElementById("root"))
-
+console.log("jeff");
 root.render(
   <React.StrictMode>
     <BrowserRouter>
