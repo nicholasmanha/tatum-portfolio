@@ -41,7 +41,7 @@ export default function Root() {
             >
               <ul className="navbar-nav ml-auto">
                 <NavLink active={true} a="/" text="Home" />
-                <NavLink a="experience" text="Experience" />
+                <NavLink a="experience" text="Portfolio" />
                 <NavLink a="about" text="About" />
                 <NavLink a="contact" text="Contact" />
               </ul>
