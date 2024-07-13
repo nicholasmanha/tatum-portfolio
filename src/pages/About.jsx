@@ -17,7 +17,7 @@ function About() {
                         <div class="desc">
                             
                             <p class="desctitle">About</p>
-                            <p class = "description">Robert Burke is a nineteen year old non-binary filmmaker. They are currently attending Emerson College for a BA in Media Arts Production.They grew up in Redding, California, where they filmed their first and soon to be second feature film. Sofia the Dealer, a grassroots film, was Robert's first feature, where they served as writer, director, producer and editor. Their follow up project, In the Middle, is currently in pre-production. Outside of these projects, Robert has performed a variety of roles on student film sets, including Gaffer, Grip and Sound Operator/Recordist. They're currently employed by Emerson Productions as an Audio Technician.</p>
+                            <p class = "description">Robert Burke is a twenty one year old filmmaker. They are currently attending Emerson College for a BFA in Media Arts Production.They grew up in Redding, California, where they filmed their first and soon to be second feature film. Sofia the Dealer, a grassroots film, was Robert's first feature, where they served as writer, director, producer and editor. Their follow up project, In the Middle, is currently in pre-production. Outside of these projects, Robert has performed a variety of roles on student film sets, including Gaffer, Grip and Sound Operator/Recordist. They're currently employed by Emerson Productions as an Audio Technician.</p>
                             <p class="desctitle">What I do</p>
                             <p>Director / Audio Technician / Editor / Cinematographer</p>
                             <div class="social-icons">
