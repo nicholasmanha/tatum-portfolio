@@ -4,7 +4,7 @@ import Home from "./pages/Home"
 import About from "./pages/About"
 import Root from "./pages/root"
 import Contact from "./pages/Contact"
-import Experience from "./pages/Experience"
+import Portfolio from './pages/Portfolio'
 
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/experience" element={<Experience />} />
+        <Route path="/portfolio" element={<Portfolio />} />
       </Route>
     </Routes>
   )

@@ -1,12 +1,11 @@
 import React from "react";
 import MovieListing from "../MovieListing";
 
-function Experience() {
+function Portfolio() {
   return (
     <>
       <div className="navshift"></div>
       <div className="pb-5 container">
-        <h1 className="mb-5 text-uppercase font-weight-bold">Emerson</h1>
         <div className="mx-3">
           <h2>Directing</h2>
           <br></br>
@@ -233,4 +232,4 @@ function Experience() {
   );
 }
 
-export default Experience;
+export default Portfolio;
