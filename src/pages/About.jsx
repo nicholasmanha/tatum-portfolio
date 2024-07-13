@@ -21,19 +21,19 @@ function About() {
                             <p class="desctitle">What I do</p>
                             <p>Director / Audio Technician / Editor / Cinematographer</p>
                             <div class="social-icons">
-                                <a href="#">
+                                <a target="_blank" href="#">
                                   <img class="facebook" src="media\media-icons\icon-facebook.png" alt=""/>
                                 </a>
-                                <a href="#">
+                                <a target="_blank" href="#">
                                   <img src="media\media-icons\icon-indeed.png" alt=""/>
                                 </a>
-                                <a href="https://www.instagram.com/robertburkefilms/?hl=en">
+                                <a target="_blank" href="https://www.instagram.com/robertburkefilms/?hl=en">
                                     <img src="media\media-icons\icon-instagram.png" alt=""/>
                                 </a>
-                                <a href="https://vimeo.com/user160672798">
+                                <a target="_blank" href="https://vimeo.com/user160672798">
                                     <img src="media\media-icons\icon-vimeo.png" alt=""/>
                                 </a>
-                                <a href="https://www.linkedin.com/in/robert-burke-b07b01207">
+                                <a target="_blank" href="https://www.linkedin.com/in/robert-burke-b07b01207">
                                     <img src="media\media-icons\icon-linkedin.png" alt=""/>
                                 </a>
                             </div>
