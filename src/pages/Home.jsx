@@ -5,9 +5,47 @@ import { Link } from "react-router-dom";
 function Home() {
   return (
     <>
-      <div className="main-logo-container">
-        <img className="main-logo" src="/media/roblogomain.png" alt=""></img>
+      <div className="h-screen flex items-center justify-center">
+
+
+        <div className="grid grid-cols-2 gap-8">
+          <div className="flex justify-end">
+            <img className="w-52 justify-self-end" src="/roblogo.svg" alt=""></img>
+          </div>
+          <div className="flex flex-col justify-center">
+            <ul>
+            <li className="text-4xl float-left">
+                <button type="button" class="focus:outline-none w-[400px] p-3 m-2 min-w-32 text-left items-center relative overflow-hidden  transition-colors duration-300 group cursor-pointer">
+                  Projects
+                  <span aria-hidden="true" class="bg-pink absolute inset-[-1px] -translate-x-full group-hover:translate-x-0 transition-transform duration-300 z-[-1]"></span>
+                </button>
+              </li>
+              <li className="text-4xl float-left">
+                <button type="button" class="focus:outline-none w-[400px] p-3 m-2 min-w-32 text-left items-center relative overflow-hidden  transition-colors duration-300 group cursor-pointer">
+                  Sound
+                  <span aria-hidden="true" class="bg-pink absolute inset-[-1px] -translate-x-full group-hover:translate-x-0 transition-transform duration-300 z-[-1]"></span>
+                </button>
+              </li>
+              <li className="text-4xl float-left">
+                <button type="button" class="focus:outline-none w-[400px] p-3 m-2 min-w-32 text-left items-center relative overflow-hidden  transition-colors duration-300 group cursor-pointer">
+                  Portfolio
+                  <span aria-hidden="true" class="bg-pink absolute inset-[-1px] -translate-x-full group-hover:translate-x-0 transition-transform duration-300 z-[-1]"></span>
+                </button>
+              </li>
+              <li className="text-4xl float-left">
+                <button type="button" class="focus:outline-none w-[400px] p-3 m-2 min-w-32 text-left items-center relative overflow-hidden  transition-colors duration-300 group cursor-pointer">
+                  About/Contact
+                  <span aria-hidden="true" class="bg-pink absolute inset-[-1px] -translate-x-full group-hover:translate-x-0 transition-transform duration-300 z-[-1]"></span>
+                </button>
+              </li>
+              
+
+            </ul>
+          </div>
+        </div>
       </div>
+
+
       <div id="dialog2" class="triangle_down1"></div>
       <div className="pb-5 container">
         <h1 id="films" className="mb-5 text-uppercase font-weight-bold">
@@ -15,7 +53,7 @@ function Home() {
         </h1>
 
         <div className="grid-container">
-        <MovieListing
+          <MovieListing
             title="Men, Women and Children and Others"
             url="https://www.youtube.com/embed/6NhRwufxpls?si=mJjYLlsBVgZ_HGJN"
             readmore="Currently in distribution"
@@ -25,7 +63,7 @@ function Home() {
             <br></br>- Production Designed and Produced by Lulu Dalzell<br></br>- Assistant Directed and Produced by Ainsley Gasbarro
             <br></br>- Cinematography by Quinlan Harp<br></br>- Starring Robbie Doty, Ray Cheverton, Saskia Penning, Landon Butler, Olivia Tosto, Jack Reisman and Keely Seward<br></br>
           </MovieListing>
-          
+
           <MovieListing
             title="Sofia the Dealer"
             url="https://player.vimeo.com/video/697807012?h=8947ee0e3c"
