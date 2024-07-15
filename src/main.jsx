@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 // import "./index.css";
 import App from "./App"
+import './index.css';
 import ScrollToTop from "./ScrollToTop";
 // import Root from "./pages/root";
 // import Home from "./pages/Home";
