@@ -4,6 +4,11 @@ import { Outlet } from "react-router-dom";
 // // import React, { useState } from 'react';
 import NavLink from "../NavLink";
 import { Link } from "react-router-dom";
+import { FaFacebookF } from "react-icons/fa";
+import { SiIndeed } from "react-icons/si";
+import { SiInstagram } from "react-icons/si";
+import { SiVimeo } from "react-icons/si";
+import { GrLinkedinOption } from "react-icons/gr";
 
 export default function Root() {
   return (
@@ -11,13 +16,13 @@ export default function Root() {
       <header className="header">
         <nav className="navbar navbar-expand-lg fixed-top py-3">
           <div className="container">
-          <Link to="/">
-            <a
-              href="#"
-              className="navbar-brand text-uppercase font-weight-bold"
-            >
-              <img className="logo" src="/media/roblogofinal.png" alt=""></img>
-            </a>
+            <Link to="/">
+              <a
+                href="#"
+                className="navbar-brand text-uppercase font-weight-bold"
+              >
+                <img className="logo" src="/media/roblogofinal.png" alt=""></img>
+              </a>
             </Link>
             <button
               type="button"
@@ -53,30 +58,26 @@ export default function Root() {
       <Outlet />
 
       <footer className="flex-shrink-0">
-        <div className="container text-center">
-          <small>Robert Burke Films &#8226; </small>
-          <div className="social-icons-footer">
+        <div className="container text-center pt-2">
+          <div className="flex gap-2 justify-center mt-4">
+
+            <small>Robert Burke Films</small>
+            <small>&#8226;</small>
+
             <a href="#">
-              <img
-                className="facebook"
-                src="media\media-icons\icon-facebook-white.png"
-                alt=""
-              ></img>
+              <FaFacebookF className="w-4 h-4" />
             </a>
             <a href="#">
-              <img src="media\media-icons\icon-indeed-white.png" alt=""></img>
+              <SiIndeed className="w-4 h-4" />
             </a>
             <a href="https://www.instagram.com/robertburkefilms/?hl=en">
-              <img
-                src="media\media-icons\icon-instagram-white.png"
-                alt=""
-              ></img>
+              <SiInstagram className="w-4 h-4" />
             </a>
             <a href="https://vimeo.com/user160672798">
-              <img src="media\media-icons\icon-vimeo-white.png" alt=""></img>
+              <SiVimeo className="w-4 h-4" />
             </a>
             <a href="https://www.linkedin.com/in/robert-burke-b07b01207">
-              <img src="media\media-icons\icon-linkedin-white.png" alt=""></img>
+              <GrLinkedinOption className="w-4 h-4" />
             </a>
           </div>
         </div>
