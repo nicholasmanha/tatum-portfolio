@@ -65,19 +65,19 @@ export default function Root() {
             <small>&#8226;</small>
 
             <a href="#">
-              <FaFacebookF className="w-4 h-4" />
+              <FaFacebookF className="fill-white w-4 h-4" />
             </a>
             <a href="#">
-              <SiIndeed className="w-4 h-4" />
+              <SiIndeed className="fill-white w-4 h-4" />
             </a>
             <a href="https://www.instagram.com/robertburkefilms/?hl=en">
-              <SiInstagram className="w-4 h-4" />
+              <SiInstagram className="fill-white w-4 h-4" />
             </a>
             <a href="https://vimeo.com/user160672798">
-              <SiVimeo className="w-4 h-4" />
+              <SiVimeo className="fill-white w-4 h-4" />
             </a>
             <a href="https://www.linkedin.com/in/robert-burke-b07b01207">
-              <GrLinkedinOption className="w-4 h-4" />
+              <GrLinkedinOption className="fill-white w-4 h-4" />
             </a>
           </div>
         </div>
