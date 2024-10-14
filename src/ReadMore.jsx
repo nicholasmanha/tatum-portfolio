@@ -11,7 +11,9 @@ const ReadMore = ({ children }) => {
         return (
             <>
                 <div className="flex items-center">
-                    <span className="read-more-btn" onClick={toggleReadMore}>What I did on this project</span><img onClick={toggleReadMore} id="downarrow" src="media\arrow-down-sign-to-navigate.png" alt=""></img>
+                    <span className="read-more-btn" onClick={toggleReadMore}>What I did on this project</span>
+                    <img onClick={toggleReadMore} id="downarrow" src="media\arrow-down-sign-to-navigate.png" alt="">
+                    </img>
                 </div>
                 <p className="text">
                     {isReadMore ? "" : text}
