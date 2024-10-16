@@ -42,7 +42,7 @@ function Home() {
           </MovieListing>
 
           <MovieListing
-            title={["In the Middle", <small> - Coming Soon</small>]}
+            title="In the Middle"
             
             url="https://www.youtube.com/embed/0ykBy6yk9ZI?si=uTarzlpXC35oHVcD"
             readmore="As the lead creative, logistical and technical head of In the Middle, I was in charge of seeing the films completion from start to finish. This included writing the feature length original screenplay, conducting all the casting and crew hiring, preparing all necessary documents for the day of filming, and ensuring a well run set when filming began. As co-editor of the project, I was in charge of calling all creative shots, piecing together the initial assembly cut, and refining any edits as needed."
