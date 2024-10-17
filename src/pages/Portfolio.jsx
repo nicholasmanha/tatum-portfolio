@@ -13,13 +13,13 @@ function Portfolio() {
             {/*  */}
             {/* Directing stuff goes here */}
             <MovieListing
-            title="Remain Calm"
-            url="https://www.youtube.com/embed/gPGkGvhSADE?si=JrodVdCTIYHlUJ5c"
-            tagline="Director"
-            readmore=""
-          >
-            A burnt out IT worker gets an unexpected high stakes phone call <br/>
-    </MovieListing>
+              title="Remain Calm"
+              url="https://www.youtube.com/embed/gPGkGvhSADE?si=JrodVdCTIYHlUJ5c"
+              tagline="Director"
+              readmore=""
+            >
+              A burnt out IT worker gets an unexpected high stakes phone call <br />
+            </MovieListing>
             <MovieListing
               title="Apocalypse Forever - Season 1"
               // url="https://www.youtube.com/watch?v=3v9SGP2hXTg" (Ep 2)
@@ -35,6 +35,20 @@ function Portfolio() {
               <a href="https://www.youtube.com/watch?v=3v9SGP2hXTg">Ep 2</a> <br></br>
             </MovieListing>
 
+            <MovieListing
+              title="Apocalypse Forever - Season 3"
+
+              url="https://www.youtube.com/embed/xqOqGkv66Bw?si=OvicKu58AGDEpkLU"
+              tagline="Director"
+              readmore=""
+            >
+              Charlie and Ryan try to stop Dr. Doomsday from unleasing the Apocalypse Forever
+              <br></br>
+              <br></br>- Emerson Channel Television Show
+              <br></br>
+              <a href="https://www.youtube.com/watch?v=-3iurvoBsY8">Ep 2</a> <br></br>
+            </MovieListing>
+
             {/*  */}
           </div>
           <h2>Producing</h2>
@@ -43,23 +57,23 @@ function Portfolio() {
             {/*  */}
             {/* Producing stuff goes here */}
             <MovieListing
-            title="Apocalypse Forever - Season 2"
-            // url="https://www.youtube.com/watch?v=xYxlDbvLRYg&t=820s" (Ep 2)
-            url="https://www.youtube.com/embed/K5rZ5Z7StN8?si=NQAsJTQ8nkf3w8UP"
-            tagline= "Creative Executive Producer"
-            readmore=""
-          >
-            I bet you’re thinking “earthquakes aren’t so bad”. Well, this ain’t your mama’s quake, it’s an earthquake forever! It’s super bad you guys. At least that’s the only apocalypse good ol Charlie and Ryan have to deal with. Oh wait, except for robots taking over the world! This may be the most apocalyptic episode yet…. <br/>
-            <br></br>
+              title="Apocalypse Forever - Season 2"
+              // url="https://www.youtube.com/watch?v=xYxlDbvLRYg&t=820s" (Ep 2)
+              url="https://www.youtube.com/embed/K5rZ5Z7StN8?si=NQAsJTQ8nkf3w8UP"
+              tagline="Creative Executive Producer"
+              readmore=""
+            >
+              I bet you’re thinking “earthquakes aren’t so bad”. Well, this ain’t your mama’s quake, it’s an earthquake forever! It’s super bad you guys. At least that’s the only apocalypse good ol Charlie and Ryan have to deal with. Oh wait, except for robots taking over the world! This may be the most apocalyptic episode yet…. <br />
+              <br></br>
               <a href="https://www.youtube.com/watch?v=xYxlDbvLRYg&t=1599s">Ep 2</a> <br></br>
-    </MovieListing>
+            </MovieListing>
             <MovieListing
               title="Closing Time"
               // url="https://www.youtube.com/watch?v=d9jef0ONbHk" (Ep 3)
               url="https://www.youtube.com/embed/pw71m2dtucs"
               tagline="Associate Technical Producer"
               readmore=""
-              
+
             >
 
               Late night sketch comedy show.<br></br>
@@ -67,6 +81,20 @@ function Portfolio() {
               <br></br>- Starring Keely Seward and Dylan De Jong<br></br>
               <br></br>
               <a href="https://www.youtube.com/watch?v=d9jef0ONbHk">Ep 3</a> <br></br>
+            </MovieListing>
+            <MovieListing
+              title="The Ear and Headmess Show"
+              // url="https://www.youtube.com/watch?v=d9jef0ONbHk" (Ep 3)
+              url="https://www.youtube.com/embed/7ZArVte29Vw?si=VZqbx0-dt7evjfZ6"
+              tagline="Executive Producer"
+              readmore=""
+
+            >
+
+              As ratings for their sketch comedy show sink, an eclectic bunch must do anything they can to keep the show on air. Including a circus.<br></br>
+
+              <br></br>
+
             </MovieListing>
 
             {/*  */}
@@ -77,45 +105,45 @@ function Portfolio() {
             {/*  */}
             {/* Sound stuff goes here */}
             <MovieListing
-            title="Rhythm Wizard"
-            url="https://www.youtube.com/embed/sxUqrhXeqXg?si=NEcKYZMb7wXvnGfX"
-            tagline= "Sound Designer/Recordist"
-            readmore=""
-          >
-            An out of touch classical music enthusiast practices a VR wizard game ahead of a virtual date. <br/>
+              title="Rhythm Wizard"
+              url="https://www.youtube.com/embed/sxUqrhXeqXg?si=NEcKYZMb7wXvnGfX"
+              tagline="Sound Designer/Recordist"
+              readmore=""
+            >
+              An out of touch classical music enthusiast practices a VR wizard game ahead of a virtual date. <br />
             </MovieListing>
-            
-            <MovieListing
-            title="The Roommate"
-            url="https://www.youtube.com/embed/ARRMDOsjwRs?si=fVnDTP4yakIT3H9s"
-            tagline= "Sound Recordist"
-          >
-            The story of two roommates, Reed & Alex and their struggle to come to terms with what their relationship truly is. <br/>
-    </MovieListing>
 
-    <MovieListing
-    
-            title="BONK Commercial"
-            image={["https://i.ibb.co/q9FFDR3/bonk.png", "https://www.instagram.com/bonk.comics/reel/C3Vx78TJVV5/"]}
-            tagline= "Sound Designer"
-           
-          >
-            A commercial for comics startup Bonk. <br/>
-    </MovieListing>
-    <MovieListing
-           title="Pizza Heroes"
-           url="https://www.youtube.com/embed/1GHbBpv376o?si=oLPxr6IqCylgk_JX"
-           tagline= "Sound Designer"
-         >
-           Two pizza store employees conspire against their boss. <br/>
-   </MovieListing>
-    <MovieListing
-            title="The Age of the Goldfish"
-            url="https://www.youtube.com/embed/SndhddfBXDU?si=2qSRP_N7ZGgiX5kd"
-            tagline= "Sound Recordist/Boom Operator"
-          >
-            A young man struggles with a breakup that forces him to come to terms with something more. <br/>
-    </MovieListing>
+            <MovieListing
+              title="The Roommate"
+              url="https://www.youtube.com/embed/ARRMDOsjwRs?si=fVnDTP4yakIT3H9s"
+              tagline="Sound Recordist"
+            >
+              The story of two roommates, Reed & Alex and their struggle to come to terms with what their relationship truly is. <br />
+            </MovieListing>
+
+            <MovieListing
+
+              title="BONK Commercial"
+              image={["https://i.ibb.co/q9FFDR3/bonk.png", "https://www.instagram.com/bonk.comics/reel/C3Vx78TJVV5/"]}
+              tagline="Sound Designer"
+
+            >
+              A commercial for comics startup Bonk. <br />
+            </MovieListing>
+            <MovieListing
+              title="Pizza Heroes"
+              url="https://www.youtube.com/embed/1GHbBpv376o?si=oLPxr6IqCylgk_JX"
+              tagline="Sound Designer"
+            >
+              Two pizza store employees conspire against their boss. <br />
+            </MovieListing>
+            <MovieListing
+              title="The Age of the Goldfish"
+              url="https://www.youtube.com/embed/SndhddfBXDU?si=2qSRP_N7ZGgiX5kd"
+              tagline="Sound Recordist/Boom Operator"
+            >
+              A young man struggles with a breakup that forces him to come to terms with something more. <br />
+            </MovieListing>
 
             <MovieListing
               title="How You Get the Girl"
@@ -132,9 +160,9 @@ function Portfolio() {
               url="https://www.youtube.com/embed/pw71m2dtucs"
               tagline="Sound Recordist"
               readmore=""
-              
-              
-              
+
+
+
             >
               Late night sketch comedy show.<br></br>
               <br></br>- Emerson Channel Television Show
@@ -150,33 +178,33 @@ function Portfolio() {
               url="https://www.youtube.com/embed/33cjy_c7YTo?si=JKywaIyO9uC1EfkN"
               tagline="Sound Engineer"
               readmore=""
-              
-              
-              
+
+
+
             >
               Animated Short Film <br></br>
               <br></br>- Emerson Independent Video Short Film
             </MovieListing>
             <MovieListing
-           title="In the Waiting Room Videos"
+              title="In the Waiting Room Videos"
 
 
-           url="https://www.youtube.com/embed/W5kB2y4hZ8w?si=CMy58yJYrqWO13UO"
-           tagline= "Sound Designer"
-         
-         >
-           In the Waiting Room is a multimedia stage play that ran November 2023 at Emerson College. I sound designed these videos as well as the sound effects for the stage.  <br/>
-           <br></br><a href="https://www.youtube.com/watch?v=u_tQd5E9fRo">Birds</a> <br></br>
+              url="https://www.youtube.com/embed/W5kB2y4hZ8w?si=CMy58yJYrqWO13UO"
+              tagline="Sound Designer"
+
+            >
+              In the Waiting Room is a multimedia stage play that ran November 2023 at Emerson College. I sound designed these videos as well as the sound effects for the stage.  <br />
+              <br></br><a href="https://www.youtube.com/watch?v=u_tQd5E9fRo">Birds</a> <br></br>
               <a href="https://www.youtube.com/watch?v=DoXYWDD-lcA">Knit</a> <br></br>
-   </MovieListing>
+            </MovieListing>
             <MovieListing
               title="The Heart and the Brain Trilogy"
               url="https://player.vimeo.com/video/734596672?h=638b42ead9"
               tagline="Sound Recordist"
               readmore=""
-              
-              
-              
+
+
+
             >
               A magical coming of age trilogy.<br></br>
               <br></br>- Produced by Moxie Mansion <br></br>
@@ -191,34 +219,57 @@ function Portfolio() {
             {/*  */}
             {/* Lighting stuff goes here */}
             <MovieListing
-            title="Third Bird - Season 5"
-            // url="https://www.youtube.com/watch?v=xYxlDbvLRYg&t=820s" (Ep 2)
-            url="https://www.youtube.com/embed/GyBzaFPRr10?si=ovTtbSZztm0_kZYG"
-            tagline= "Director of Photography"
-            readmore=""
-          >
-            After the birds go viral from their baby-bird challenge video, the fame goes to their heads. Meanwhile, Apple starts her new bedroom pop music career, while Randolph pursues the stage. <br/>
-            <br></br>
+              title="Third Bird - Season 5"
+              // url="https://www.youtube.com/watch?v=xYxlDbvLRYg&t=820s" (Ep 2)
+              url="https://www.youtube.com/embed/GyBzaFPRr10?si=ovTtbSZztm0_kZYG"
+              tagline="Director of Photography"
+              readmore=""
+            >
+              After the birds go viral from their baby-bird challenge video, the fame goes to their heads. Meanwhile, Apple starts her new bedroom pop music career, while Randolph pursues the stage. <br />
+              <br></br>
               <a href="https://www.youtube.com/watch?v=xYxlDbvLRYg&t=820s">Ep 2</a> <br></br>
-    </MovieListing>
+            </MovieListing>
             <MovieListing
               title="A Genre Away - Episode 1"
               url="https://www.youtube.com/embed/T4iQdU7rZLQ?si=GCKkzIjJXSejDCE6"
               tagline="Grip & Electric"
               readmore=""
-              
+
             >
               After her boyfriend's tragic death, a scholarly graduate student's reality is shattered when she discovers a book that allows her to travel through different film genres to see her lost love.<br></br>
               <br></br>- Emerson Independent Video Miniseries<br></br>
             </MovieListing>
-            
+
+            <MovieListing
+              title="Speedwell Episode 1"
+              url="https://www.youtube.com/embed/UgDy-yv-J9E?si=pS72s3JEd_HIoyvZ"
+              tagline="Gaffer"
+              readmore=""
+
+            >
+              A desperate father fleeing from religious persecution begs a reluctant submarine captain to ferry his people across an uncharted ocean. When a sea beast attacks, the captain must work with both her apprehensive crew & new passengers to survive.<br></br>
+
+            </MovieListing>
+
+
             {/*  */}
           </div>
           <p className="mb-5">
-            
+
           </p>
         </div>
-        <h1 className="mb-5 text-uppercase font-weight-bold">FSC</h1>
+        <h1 className="mb-5 text-uppercase font-weight-bold">Upcoming Projects</h1>
+        <p>
+          7Hz (Directed Study Project in Post Production Audio) - Writer/Director <br></br>
+          Joan (TV Pilot) - Director<br></br>
+          Ear and Headmess Season 2 (Sketch Show) - Executive Producer<br></br>
+          Bunk Beds (Thesis Film) - Producer<br></br>
+          Cauldrons and Kickflips (Thesis Film) - Sound Recordist/Designer<br></br>
+          Dead Air (Thesis Film) - Sound Recordist/Designer<br></br>
+          Pulling Teeth (Thesis Film) - Producer, Sound Designer<br></br>
+          Pandora’s Room (TV Miniseries) - Executive Producer<br></br>
+          Something’s Wrong with Kit - Gaffer<br></br>
+        </p>
         <div className="mx-3">
           <div className="grid-container">
             {/*  */}

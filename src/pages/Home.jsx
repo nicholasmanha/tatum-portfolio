@@ -5,47 +5,9 @@ import { Link } from "react-router-dom";
 function Home() {
   return (
     <>
-      <div className="h-screen flex items-center justify-center">
-
-
-        <div className="grid grid-cols-2 gap-8">
-          <div className="flex justify-end">
-            <img className="w-52 justify-self-end" src="/roblogo.svg" alt=""></img>
-          </div>
-          <div className="flex flex-col justify-center">
-            <ul>
-            <li className="text-4xl float-left">
-                <button type="button" class="focus:outline-none w-[400px] p-3 m-2 min-w-32 text-left items-center relative overflow-hidden  transition-colors duration-300 group cursor-pointer">
-                  Projects
-                  <span aria-hidden="true" class="bg-pink absolute inset-[-1px] -translate-x-full group-hover:translate-x-0 transition-transform duration-300 z-[-1]"></span>
-                </button>
-              </li>
-              <li className="text-4xl float-left">
-                <button type="button" class="focus:outline-none w-[400px] p-3 m-2 min-w-32 text-left items-center relative overflow-hidden  transition-colors duration-300 group cursor-pointer">
-                  Sound
-                  <span aria-hidden="true" class="bg-pink absolute inset-[-1px] -translate-x-full group-hover:translate-x-0 transition-transform duration-300 z-[-1]"></span>
-                </button>
-              </li>
-              <li className="text-4xl float-left">
-                <button type="button" class="focus:outline-none w-[400px] p-3 m-2 min-w-32 text-left items-center relative overflow-hidden  transition-colors duration-300 group cursor-pointer">
-                  Portfolio
-                  <span aria-hidden="true" class="bg-pink absolute inset-[-1px] -translate-x-full group-hover:translate-x-0 transition-transform duration-300 z-[-1]"></span>
-                </button>
-              </li>
-              <li className="text-4xl float-left">
-                <button type="button" class="focus:outline-none w-[400px] p-3 m-2 min-w-32 text-left items-center relative overflow-hidden  transition-colors duration-300 group cursor-pointer">
-                  About/Contact
-                  <span aria-hidden="true" class="bg-pink absolute inset-[-1px] -translate-x-full group-hover:translate-x-0 transition-transform duration-300 z-[-1]"></span>
-                </button>
-              </li>
-              
-
-            </ul>
-          </div>
-        </div>
+      <div className="main-logo-container">
+        <img className="main-logo" src="/media/tatumLogoMain.png" alt=""></img>
       </div>
-
-
       <div id="dialog2" class="triangle_down1"></div>
       <div className="pb-5 container">
         <h1 id="films" className="mb-5 text-uppercase font-weight-bold">
@@ -53,17 +15,17 @@ function Home() {
         </h1>
 
         <div className="grid-container">
-          <MovieListing
+        <MovieListing
             title="Men, Women and Children and Others"
-            url="https://www.youtube.com/embed/6NhRwufxpls?si=mJjYLlsBVgZ_HGJN"
+            url="https://www.youtube.com/embed/YAFgmQahAwU?si=IL4ONQMiZfLydM6o"
             readmore="Currently in distribution"
           >
             An exploration of the gender binary and how childhood shapes identity.<br></br>
-            <br></br>- Directed, Written and Produced by Robert Burke <br></br>- Story by Emma Boothroyd and Robert Burke
+            <br></br>- Directed, Written and Produced by Tatum Burke <br></br>- Story by Emma Boothroyd and Tatum Burke
             <br></br>- Production Designed and Produced by Lulu Dalzell<br></br>- Assistant Directed and Produced by Ainsley Gasbarro
             <br></br>- Cinematography by Quinlan Harp<br></br>- Starring Robbie Doty, Ray Cheverton, Saskia Penning, Landon Butler, Olivia Tosto, Jack Reisman and Keely Seward<br></br>
           </MovieListing>
-
+          
           <MovieListing
             title="Sofia the Dealer"
             url="https://player.vimeo.com/video/697807012?h=8947ee0e3c"
@@ -73,32 +35,29 @@ function Home() {
             ailing mother above the poverty line. But after a freak accident in
             her backyard, she's given the chance to make more than enough. Set
             during the Corona Virus pandemic.<br></br>
-            <br></br>- Directed, Written, Produced and Edited by Robert Burke
+            <br></br>- Directed, Written, Produced and Edited by Tatum Burke
             <br></br>- Shot by Michael Bunte<br></br>- Edited by Nicholas Manha
             <br></br>- Music by Morgan Fator<br></br>- Starring Sara Medina,
             Emma Barlow, Francisco Grijalva, Lexi Lynn<br></br>
           </MovieListing>
 
           <MovieListing
-            title={["In the Middle", <small> - Coming Soon</small>]}
-            link={[
-              "GoFundMe",
-              "https://www.gofundme.com/f/in-the-middle-film?utm_source=customer&utm_medium=copy_link&utm_campaign=p_cf+share-flow-1",
-            ]}
-            image={["https://i.ibb.co/j619pCz/itmthumb.png"]}
+            title="In the Middle"
+            
+            url="https://www.youtube.com/embed/0ykBy6yk9ZI?si=uTarzlpXC35oHVcD"
             readmore="As the lead creative, logistical and technical head of In the Middle, I was in charge of seeing the films completion from start to finish. This included writing the feature length original screenplay, conducting all the casting and crew hiring, preparing all necessary documents for the day of filming, and ensuring a well run set when filming began. As co-editor of the project, I was in charge of calling all creative shots, piecing together the initial assembly cut, and refining any edits as needed."
           >
             An ambitious yet burnout photography student rushes to complete an
             unexpected final project amidst summer heat and shifting friendships
             <br></br>
-            <br></br>- Written, Directed, Produced and Edited by Robert Burke
+            <br></br>- Written, Directed, Produced and Edited by Tatum Burke
             <br></br>- Produced by Ainsley Gasbarro<br></br>- Shot by Michael
             Bunte<br></br>- Art Direction by Cam Russo<br></br>- Costume and
             Production Design by Lulu Dalzell<br></br>- Starring Sara Medina,
             Alex Blackmore, Corbin Lowry<br></br>
           </MovieListing>
         </div>
-        <Link to="experience">
+        <Link to="portfolio">
           <h1>Other Stuff I've Done</h1>
         </Link>
       </div>
