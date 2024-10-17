@@ -16,7 +16,7 @@ export default function Root() {
               href="#"
               className="navbar-brand text-uppercase font-weight-bold"
             >
-              <img className="logo" src="/media/roblogofinal.png" alt=""></img>
+              <img className="logo" src="/media/tatumNavbarLogo.png" alt=""></img>
             </a>
             </Link>
             <button
@@ -40,7 +40,7 @@ export default function Root() {
               className="collapse navbar-collapse"
             >
               <ul className="navbar-nav ml-auto">
-                <NavLink active={true} a="/" text="Home" />
+                <NavLink className="absolute !important" active={true} a="/" text="Home" />
                 <NavLink a="portfolio" text="Portfolio" />
                 <NavLink a="about" text="About" />
                 <NavLink a="contact" text="Contact" />
@@ -54,7 +54,7 @@ export default function Root() {
 
       <footer className="flex-shrink-0">
         <div className="container text-center">
-          <small>Robert Burke Films &#8226; </small>
+          <small>Tatum Burke Films &#8226; </small>
           <div className="social-icons-footer">
             <a href="#">
               <img

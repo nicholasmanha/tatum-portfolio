@@ -6,7 +6,7 @@ function Home() {
   return (
     <>
       <div className="main-logo-container">
-        <img className="main-logo" src="/media/roblogomain.png" alt=""></img>
+        <img className="main-logo" src="/media/tatumLogoMain.png" alt=""></img>
       </div>
       <div id="dialog2" class="triangle_down1"></div>
       <div className="pb-5 container">
@@ -21,7 +21,7 @@ function Home() {
             readmore="Currently in distribution"
           >
             An exploration of the gender binary and how childhood shapes identity.<br></br>
-            <br></br>- Directed, Written and Produced by Robert Burke <br></br>- Story by Emma Boothroyd and Robert Burke
+            <br></br>- Directed, Written and Produced by Tatum Burke <br></br>- Story by Emma Boothroyd and Tatum Burke
             <br></br>- Production Designed and Produced by Lulu Dalzell<br></br>- Assistant Directed and Produced by Ainsley Gasbarro
             <br></br>- Cinematography by Quinlan Harp<br></br>- Starring Robbie Doty, Ray Cheverton, Saskia Penning, Landon Butler, Olivia Tosto, Jack Reisman and Keely Seward<br></br>
           </MovieListing>
@@ -35,7 +35,7 @@ function Home() {
             ailing mother above the poverty line. But after a freak accident in
             her backyard, she's given the chance to make more than enough. Set
             during the Corona Virus pandemic.<br></br>
-            <br></br>- Directed, Written, Produced and Edited by Robert Burke
+            <br></br>- Directed, Written, Produced and Edited by Tatum Burke
             <br></br>- Shot by Michael Bunte<br></br>- Edited by Nicholas Manha
             <br></br>- Music by Morgan Fator<br></br>- Starring Sara Medina,
             Emma Barlow, Francisco Grijalva, Lexi Lynn<br></br>
@@ -50,7 +50,7 @@ function Home() {
             An ambitious yet burnout photography student rushes to complete an
             unexpected final project amidst summer heat and shifting friendships
             <br></br>
-            <br></br>- Written, Directed, Produced and Edited by Robert Burke
+            <br></br>- Written, Directed, Produced and Edited by Tatum Burke
             <br></br>- Produced by Ainsley Gasbarro<br></br>- Shot by Michael
             Bunte<br></br>- Art Direction by Cam Russo<br></br>- Costume and
             Production Design by Lulu Dalzell<br></br>- Starring Sara Medina,
