@@ -1,5 +1,8 @@
 # Robert's Portfolio Documentation
 Portfolio for Robert Burke's films and productions. Built using React.
+
+
+font: Alegreya Sans SC
 ## Deploying
 You deploy your website by typing these commands into the console:
 `npm run build`
