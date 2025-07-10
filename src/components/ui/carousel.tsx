@@ -3,7 +3,8 @@ import useEmblaCarousel, {
   type UseEmblaCarouselType,
 } from "embla-carousel-react"
 import { ArrowLeft, ArrowRight } from "lucide-react"
-
+import { IoIosArrowBack } from "react-icons/io";
+import { IoIosArrowForward } from "react-icons/io";
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 
@@ -178,54 +179,66 @@ function CarouselPrevious({
   const { orientation, scrollPrev, canScrollPrev } = useCarousel()
 
   return (
-    <Button
+    <div
       data-slot="carousel-previous"
-      variant={variant}
-      size={size}
       className={cn(
-        "absolute size-8 rounded-full",
+        "absolute size-20 rounded-full z-10 cursor-pointer flex items-center justify-center",
         orientation === "horizontal"
-          ? "top-1/2 -left-12 -translate-y-1/2"
-          : "-top-12 left-1/2 -translate-x-1/2 rotate-90",
+          ? "top-1/2 left-4 -translate-y-1/2"
+          : "top-4 left-1/2 -translate-x-1/2 rotate-90",
+        !canScrollPrev && "hidden cursor-not-allowed pointer-events-none",
         className
       )}
-      disabled={!canScrollPrev}
-      onClick={scrollPrev}
-      {...props}
+      onClick={canScrollPrev ? scrollPrev : undefined}
+      role="button"
+      tabIndex={canScrollPrev ? 0 : -1}
+      aria-disabled={!canScrollPrev}
+      onKeyDown={(e: React.KeyboardEvent<HTMLDivElement>) => {
+        if (canScrollPrev && (e.key === 'Enter' || e.key === ' ')) {
+          e.preventDefault();
+          scrollPrev();
+        }
+      }}
     >
-      <ArrowLeft />
+      <IoIosArrowBack size={128}/>
       <span className="sr-only">Previous slide</span>
-    </Button>
+    </div>
   )
 }
 
 function CarouselNext({
   className,
-  variant = "outline",
+  variant = "default",
   size = "icon",
   ...props
 }: React.ComponentProps<typeof Button>) {
   const { orientation, scrollNext, canScrollNext } = useCarousel()
 
   return (
-    <Button
+    <div
       data-slot="carousel-next"
-      variant={variant}
-      size={size}
       className={cn(
-        "absolute size-8 rounded-full",
+        "absolute size-20 rounded-full z-10 cursor-pointer flex items-center justify-center",
         orientation === "horizontal"
-          ? "top-1/2 -right-12 -translate-y-1/2"
-          : "-bottom-12 left-1/2 -translate-x-1/2 rotate-90",
+          ? "top-1/2 right-4 -translate-y-1/2"
+          : "bottom-4 left-1/2 -translate-x-1/2 rotate-90",
+        !canScrollNext && "hidden cursor-not-allowed pointer-events-none",
         className
       )}
-      disabled={!canScrollNext}
-      onClick={scrollNext}
-      {...props}
+      onClick={canScrollNext ? scrollNext : undefined}
+      role="button"
+      tabIndex={canScrollNext ? 0 : -1}
+      aria-disabled={!canScrollNext}
+      onKeyDown={(e: React.KeyboardEvent<HTMLDivElement>) => {
+        if (canScrollNext && (e.key === 'Enter' || e.key === ' ')) {
+          e.preventDefault();
+          scrollNext();
+        }
+      }}
     >
-      <ArrowRight />
+      <IoIosArrowForward size={128}/>
       <span className="sr-only">Next slide</span>
-    </Button>
+    </div>
   )
 }
 
