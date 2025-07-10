@@ -7,9 +7,9 @@ import { Link } from "react-router-dom";
 
 export default function Root() {
   return (
-    <div className="App">
-      <header className="header">
-        <nav className="navbar navbar-expand-lg fixed-top py-3">
+    <div className="App ">
+      <header className="header ">
+        <nav className=" navbar navbar-expand-lg fixed-top py-3 !bg-[#000]">
           <div className="container">
           <Link to="/">
             <a
