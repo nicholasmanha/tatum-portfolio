@@ -1,86 +1,100 @@
 import "../App.css";
 import "../Navbar.css";
-import { Outlet } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 // // import React, { useState } from 'react';
 import NavLink from "../NavLink";
 import { Link } from "react-router-dom";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel"
 
 export default function Root() {
+  const aspect = "2.35/1";
+  const location = useLocation();
+  const isHome = location.pathname === "/" || location.pathname === "/home";
+
   return (
-    <div className="">
-      <header className="header ">
-        <nav className=" navbar navbar-expand-lg fixed-top py-3 !bg-[#000]">
-          <div className="container">
-          <Link to="/">
-            <a
-              href="#"
-              className="navbar-brand text-uppercase font-weight-bold"
-            >
-              <img className="logo" src="/media/tatumNavbarLogo.png" alt=""></img>
-            </a>
-            </Link>
-            <button
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-              className="navbar-toggler navbar-toggler-right"
-            >
-              <img
-                id="hamburger"
-                className="hamburger"
-                src="/media/icons8-menu-64.png"
-                alt=""
-              ></img>
-            </button>
-            <div
-              id="navbarSupportedContent"
-              className="collapse navbar-collapse"
-            >
-              <ul className="navbar-nav ml-auto">
-                <NavLink className="absolute !important" active={true} a="/" text="Home" />
-                <NavLink a="portfolio" text="Portfolio" />
-                <NavLink a="about" text="About" />
-                <NavLink a="contact" text="Contact" />
-              </ul>
-            </div>
+    <>
+      <div className="flex flex-col">
+        <div className="flex justify-center">TATUM BURKE</div>
+        <div className="flex justify-center">She/her/hers</div>
+        {isHome && (
+          <div className="flex justify-center">
+            <Carousel className="w-4/5 group" opts={{
+              align: "start",
+              loop: true,
+            }}>
+              <CarouselContent>
+                <CarouselItem key={"7hz"}>
+                  <div className={`p-1 w-full aspect-[${aspect}] overflow-hidden `}>
+                    <img className="w-full h-full object-cover" src="media\stills\7Hz Still.png" alt="" />
+                  </div>
+                </CarouselItem>
+                <CarouselItem key={"apoc"}>
+                  <div className={`p-1 w-full aspect-[${aspect}] overflow-hidden `}>
+                    <img className="w-full h-full object-cover" src="media\stills\Apocalpyse Still.png" alt="" />
+                  </div>
+                </CarouselItem>
+                <CarouselItem key={"bunk"}>
+                  <div className={`p-1 w-full aspect-[${aspect}] overflow-hidden `}>
+                    <img className="w-full h-full object-cover" src="media\stills\Bunk Beds.png" alt="" />
+                  </div>
+                </CarouselItem>
+                <CarouselItem key={"ear"}>
+                  <div className={`p-1 w-full aspect-[${aspect}] overflow-hidden `}>
+                    <img className="w-full h-full object-cover" src="media\stills\Ear and Headmess.png" alt="" />
+                  </div>
+                </CarouselItem>
+                <CarouselItem key={"middle"}>
+                  <div className={`p-1 w-full aspect-[${aspect}] overflow-hidden `}>
+                    <img className="w-full h-full object-cover" src="media\stills\In the Middle.png" alt="" />
+                  </div>
+                </CarouselItem>
+                <CarouselItem key={"joan"}>
+                  <div className={`p-1 w-full aspect-[${aspect}] overflow-hidden `}>
+                    <img className="w-full h-full object-cover" src="media\stills\Joan Still.png" alt="" />
+                  </div>
+                </CarouselItem>
+                <CarouselItem key={"MWC"}>
+                  <div className={`p-1 w-full aspect-[${aspect}] overflow-hidden `}>
+                    <img className="w-full h-full object-cover" src="media\stills\MWC&O_HS.00_06_10_04.Still003.jpg" alt="" />
+                  </div>
+                </CarouselItem>
+                <CarouselItem key={"pandora"}>
+                  <div className={`p-1 w-full aspect-[${aspect}] overflow-hidden `}>
+                    <img className="w-full h-full object-cover" src="media\stills\Pandoras.00_29_44_00.Still002.jpg" alt="" />
+                  </div>
+                </CarouselItem>
+                <CarouselItem key={"teeth"}>
+                  <div className={`p-1 w-full aspect-[${aspect}] overflow-hidden `}>
+                    <img className="w-full h-full object-cover" src="media\stills\Pulling Teeth.png" alt="" />
+                  </div>
+                </CarouselItem>
+                <CarouselItem key={"calm"}>
+                  <div className={`p-1 w-full aspect-[${aspect}] overflow-hidden `}>
+                    <img className="w-full h-full object-cover" src="media\stills\Remain Calm.png" alt="" />
+                  </div>
+                </CarouselItem>
+              </CarouselContent>
+              <CarouselPrevious className="opacity-0 group-hover:opacity-60 transition-opacity duration-300 text-white" />
+              <CarouselNext className="opacity-0 group-hover:opacity-60 transition-opacity duration-300 text-white" />
+            </Carousel>
           </div>
-        </nav>
-      </header>
-
-      <Outlet />
-
-      <footer className="flex-shrink-0">
-        <div className="container text-center">
-          <small>Tatum Burke Films &#8226; </small>
-          <div className="social-icons-footer">
-            <a href="#">
-              <img
-                className="facebook"
-                src="media\media-icons\icon-facebook-white.png"
-                alt=""
-              ></img>
-            </a>
-            <a href="#">
-              <img src="media\media-icons\icon-indeed-white.png" alt=""></img>
-            </a>
-            <a href="https://www.instagram.com/robertburkefilms/?hl=en">
-              <img
-                src="media\media-icons\icon-instagram-white.png"
-                alt=""
-              ></img>
-            </a>
-            <a href="https://vimeo.com/user160672798">
-              <img src="media\media-icons\icon-vimeo-white.png" alt=""></img>
-            </a>
-            <a href="https://www.linkedin.com/in/robert-burke-b07b01207">
-              <img src="media\media-icons\icon-linkedin-white.png" alt=""></img>
-            </a>
-          </div>
+        )}
+        <div className="flex justify-around">
+          <NavLink className="absolute !important" active={true} a="/" text="Home" />
+          <NavLink a="portfolio" text="Portfolio" />
+          <NavLink a="about" text="About" />
+          <NavLink a="contact" text="Contact" />
         </div>
-      </footer>
-    </div>
+        <div className="">
+          <Outlet />
+        </div>
+      </div>
+    </>
   );
 }
