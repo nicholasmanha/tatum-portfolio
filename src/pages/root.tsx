@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 export default function Root() {
   return (
-    <div className="App ">
+    <div className="">
       <header className="header ">
         <nav className=" navbar navbar-expand-lg fixed-top py-3 !bg-[#000]">
           <div className="container">
