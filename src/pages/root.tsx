@@ -19,9 +19,16 @@ export default function Root() {
 
   return (
     <>
-      <div className="flex flex-col">
-        <div className="flex justify-center">TATUM BURKE</div>
-        <div className="flex justify-center">She/her/hers</div>
+      <div className="flex flex-col py-12 items-center">
+
+        <div className="w-full space-y-2 flex justify-center">
+          <div className="w-4/5 text-left px-3">
+            <div className="text-[3rem] font-black">TATUM BURKE</div>
+            <div className="text-[1.5rem] font-bold">She/her/hers</div>
+          </div>
+
+        </div>
+
         {isHome && (
           <div className="flex justify-center">
             <Carousel className="w-4/5 group" opts={{
@@ -85,16 +92,25 @@ export default function Root() {
             </Carousel>
           </div>
         )}
-        <div className="flex justify-around">
-          <NavLink className="absolute !important" active={true} a="/" text="Home" />
-          <NavLink a="portfolio" text="Portfolio" />
-          <NavLink a="about" text="About" />
-          <NavLink a="contact" text="Contact" />
+        <div className="w-4/5 flex justify-around">
+          <div className="mx-16 py-2">
+            <NavLink className="absolute !important" active={true} a="/" text="Home" />
+          </div>
+          <div className="mx-16 py-2">
+            <NavLink a="portfolio" text="Portfolio" />
+          </div>
+          <div className="mx-16 py-2">
+            <NavLink a="about" text="About" />
+          </div>
+          <div className="mx-16 py-2">
+            <NavLink a="contact" text="Contact" />
+          </div>
         </div>
         <div className="">
           <Outlet />
         </div>
       </div>
+
     </>
   );
 }
