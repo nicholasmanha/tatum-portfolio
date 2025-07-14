@@ -97,7 +97,7 @@ export default function Root() {
             <NavLink className="absolute !important" active={true} a="/" text="Home" />
           </div>
           <div className="mx-16 py-2">
-            <NavLink a="portfolio" text="Portfolio" />
+            <NavLink a="films" text="Films" />
           </div>
           <div className="mx-16 py-2">
             <NavLink a="about" text="About" />

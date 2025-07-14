@@ -1,29 +1,34 @@
-import React, { useState } from "react";
-import ".//App.css";
+import React, { useState } from 'react'
 
-const ReadMore = ({ children }) => {
-    const text = children;
-    const [isReadMore, setIsReadMore] = useState(true);
-    const toggleReadMore = () => {
-        setIsReadMore(!isReadMore);
-    };
-    if (children) {
-        return (
-            <>
-                <div className="flex items-center">
-                    <span className="read-more-btn" onClick={toggleReadMore}>What I did on this project</span>
-                    <img onClick={toggleReadMore} id="downarrow" src="media\arrow-down-sign-to-navigate.png" alt="">
-                    </img>
-                </div>
-                <p className="text">
-                    {isReadMore ? "" : text}
-                </p>
-            </>
+interface ReadMoreProps {
+  children: React.ReactNode
+  linkText?: string
+  showLessText?: string
+}
 
-        );
-    }
+function ReadMore({ 
+  children, 
+  linkText = "Read more", 
+  showLessText = linkText 
+}: ReadMoreProps) {
+  const [isExpanded, setIsExpanded] = useState(false)
+  
+  return (
+    <div>
+      <button 
+        onClick={() => setIsExpanded(!isExpanded)}
+        className="text-black hover:text-black underline focus:outline-none"
+      >
+        {isExpanded ? showLessText : linkText}
+      </button>
+      
+      {isExpanded && (
+        <div className="mt-2">
+          {children}
+        </div>
+      )}
+    </div>
+  )
+}
 
-};
-
-
-export default ReadMore;
+export default ReadMore

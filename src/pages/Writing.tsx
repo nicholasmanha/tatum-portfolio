@@ -1,7 +1,7 @@
 import React from "react";
 import MovieListing from "../MovieListing";
 
-function Portfolio() {
+function Writing() {
   return (
     <>
       <div className="navshift"></div>
@@ -283,4 +283,4 @@ function Portfolio() {
   );
 }
 
-export default Portfolio;
+export default Writing;
