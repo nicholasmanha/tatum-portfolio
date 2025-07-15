@@ -57,8 +57,8 @@ function Carousel({
     },
     plugins
   )
-  const [canScrollPrev, setCanScrollPrev] = React.useState(false)
-  const [canScrollNext, setCanScrollNext] = React.useState(false)
+  const [canScrollPrev, setCanScrollPrev] = React.useState(true)
+  const [canScrollNext, setCanScrollNext] = React.useState(true)
 
   const onSelect = React.useCallback((api: CarouselApi) => {
     if (!api) return
@@ -186,7 +186,7 @@ function CarouselPrevious({
         orientation === "horizontal"
           ? "top-1/2 left-4 -translate-y-1/2"
           : "top-4 left-1/2 -translate-x-1/2 rotate-90",
-        !canScrollPrev && "hidden cursor-not-allowed pointer-events-none",
+        
         className
       )}
       onClick={canScrollPrev ? scrollPrev : undefined}
@@ -222,7 +222,7 @@ function CarouselNext({
         orientation === "horizontal"
           ? "top-1/2 right-4 -translate-y-1/2"
           : "bottom-4 left-1/2 -translate-x-1/2 rotate-90",
-        !canScrollNext && "hidden cursor-not-allowed pointer-events-none",
+        !canScrollNext && " cursor-not-allowed pointer-events-none",
         className
       )}
       onClick={canScrollNext ? scrollNext : undefined}

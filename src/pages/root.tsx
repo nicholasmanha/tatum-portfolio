@@ -92,17 +92,20 @@ export default function Root() {
             </Carousel>
           </div>
         )}
-        <div className={`${screen_perc} pb-12 flex justify-around`}>
-          <div className="mx-16 py-2">
+        <div className={`${screen_perc} pb-12 flex justify-between px-[1%]`}>
+          <div className="py-2">
             <NavLink className="absolute !important" active={true} a="/" text="Home" />
           </div>
-          <div className="mx-16 py-2">
+          <div className="py-2">
             <NavLink a="films" text="Films" />
           </div>
-          <div className="mx-16 py-2">
-            <NavLink a="about" text="About" />
+          <div className="py-2">
+            <NavLink a="sound" text="Sound" />
           </div>
-          <div className="mx-16 py-2">
+          <div className="py-2">
+            <NavLink a="writing" text="Writing" />
+          </div>
+          <div className="py-2">
             <NavLink a="contact" text="Contact" />
           </div>
         </div>

@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import "../contactstyles.css";
+import { GoHomeFill } from "react-icons/go";
+import { MdEmail } from "react-icons/md";
+import { FaPhone } from "react-icons/fa";
 
 function Contact() {
   const [focusedName, setFocusedName] = React.useState(false);
@@ -28,127 +31,63 @@ function Contact() {
 
   return (
     <>
-      <div className="containercontact">
-        <div className="form">
-          <div className="contact-info">
-            <h3 className="pb-5 title-contact">Let's get in touch</h3>
-
-            <div className="info">
-              <div className="information">
-                <img src="media\home.png" className="icon" alt="" />
-                <p>120 Boylston St, Boston, MA 02116</p>
-              </div>
-              <div className="information">
-                <img src="media\email.png" className="icon" alt="" />
-                <p>robertwburke@icloud.com</p>
-              </div>
-              <div className="information">
-                <img src="media\phone-call.png" className="icon" alt="" />
-                <p>(530) 524-2049</p>
-              </div>
-            </div>
-
-            <div className="social-media">
-              <p>Connect with me :</p>
-              <div className="social-icons-contact">
-                <a href="#">
-                  <img
-                    src="media\media-icons\icon-facebook-red.png"
-                    alt=""
-                  ></img>
-                </a>
-                <a href="#">
-                  <img src="media\media-icons\icon-indeed-red.png" alt=""></img>
-                </a>
-                <a href="https://www.instagram.com/robertburkefilms/?hl=en">
-                  <img
-                    src="media\media-icons\icon-instagram-red.png"
-                    alt=""
-                  ></img>
-                </a>
-                <a href="https://vimeo.com/user160672798">
-                  <img src="media\media-icons\icon-vimeo-red.png" alt=""></img>
-                </a>
-                <a href="https://www.linkedin.com/in/robert-burke-b07b01207">
-                  <img
-                    src="media\media-icons\icon-linkedin-red.png"
-                    alt=""
-                  ></img>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="contact-form">
+      <div className="mb-[3rem]">
+        <p className="text-5xl font-bold mb-5">CONTACT</p>
+        <div className="flex w-full">
+          <div className="w-1/2">
             <form
               action="https://formsubmit.co/robertwburke@icloud.com"
               method="POST"
-              autocomplete="off"
+              className="flex flex-col gap-4 !p-0 w-1/2"
             >
-              <input type="hidden" name="_subject" value="new email"></input>
+              <input type="hidden" name="_subject" value="new email" />
 
-              <h3 className="title-contact">Contact me</h3>
-              <div className={`input-container${(focusedName || name !== "") ? " focus" : ""}`}>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  onChange={event => setName(event.target.value)}
-                  onFocus={onFocusName}
-                  onBlur={onBlurName}
-                  className="input"
-                  required
-                ></input>
-                <label for="">Username</label>
-                <span>Username</span>
-              </div>
-              <div className={`input-container${(focusedEmail || email !== "") ? " focus" : ""}`}>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  onChange={event => setEmail(event.target.value)}
-                  onFocus={onFocusEmail}
-                  onBlur={onBlurEmail}
-                  className="input"
-                  required
-                ></input>
-                <label for="">Email</label>
-                <span>Email</span>
-              </div>
-              <div className={`input-container${(focusedPhone || phone !== "") ? " focus" : ""}`}>
-                <input
-                  type="tel"
-                  id="phone"
-                  name="phone"
-                  onChange={event => setPhone(event.target.value)}
-                  onFocus={onFocusPhone}
-                  onBlur={onBlurPhone}
-                  className="input"
-                />
-                <label for="">Phone</label>
-                <span>Phone</span>
-              </div>
-              <div
-                className={`input-container textarea${
-                  (focusedMessage || message !== "") ? " focus" : ""
-                }`}
+              <input
+                type="text"
+                name="name"
+                placeholder="Name"
+                className="p-1 border border-gray-300 rounded"
+                required
+              />
+
+              <input
+                type="email"
+                name="email"
+                placeholder="Email"
+                className="p-1 border border-gray-300 rounded"
+                required
+              />
+
+              <input
+                type="tel"
+                name="phone"
+                placeholder="Phone"
+                className="p-1 border border-gray-300 rounded"
+              />
+
+              <textarea
+                name="message"
+                placeholder="Message"
+                rows={5}
+                className="p-1 border border-gray-300 rounded resize-vertical"
+              ></textarea>
+
+              <button
+                type="submit"
+                className="p-1 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors"
               >
-                <textarea
-                  name="message"
-                  onChange={event => setMessage(event.target.value)}
-                  onFocus={onFocusMessage}
-                  onBlur={onBlurMessage}
-                  className="input"
-                ></textarea>
-                <label for="">Message</label>
-                <span>Message</span>
-              </div>
-              <input type="submit" value="Send" className="btn" />
+                Send
+              </button>
             </form>
+          </div>
+          <div className="w-1/2">
+            <div className="text-lg flex mb-4"> <div className="flex flex-col justify-center mr-2"> <GoHomeFill size={25} /></div> Bostom, MA</div>
+            <div className="text-lg flex mb-4"><div className="flex flex-col justify-center mr-2"><MdEmail size={25} /> </div>tatumwburke@icloud.com</div>
+            <div className="text-lg flex mb-4"><div className="flex flex-col justify-center mr-2"><FaPhone size={25} /> </div>(530)524-2049</div>
           </div>
         </div>
       </div>
+
     </>
   );
 }
