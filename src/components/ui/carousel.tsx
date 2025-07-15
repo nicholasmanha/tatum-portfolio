@@ -119,7 +119,7 @@ function Carousel({
     >
       <div
         onKeyDownCapture={handleKeyDown}
-        className={cn("relative", className)}
+        className={cn("relative group", className)}
         role="region"
         aria-roledescription="carousel"
         data-slot="carousel"
@@ -200,7 +200,7 @@ function CarouselPrevious({
         }
       }}
     >
-      <IoIosArrowBack size={128}/>
+      <IoIosArrowBack size={128}/> 
       <span className="sr-only">Previous slide</span>
     </div>
   )

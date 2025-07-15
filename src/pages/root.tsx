@@ -87,8 +87,8 @@ export default function Root() {
                   </div>
                 </CarouselItem>
               </CarouselContent>
-              <CarouselPrevious className="opacity-0 group-hover:opacity-60 transition-opacity duration-300 text-white" />
-              <CarouselNext className="opacity-0 group-hover:opacity-60 transition-opacity duration-300 text-white" />
+              <CarouselPrevious className="z-50 opacity-0 group-hover:opacity-50 hover:opacity-60 transition-opacity duration-300 text-white" />
+              <CarouselNext className="z-50 opacity-0 group-hover:opacity-50 transition-opacity duration-300 text-white" />
             </Carousel>
           </div>
         )}
