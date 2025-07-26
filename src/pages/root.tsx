@@ -22,7 +22,7 @@ export default function Root() {
       <div className="flex flex-col py-12 items-center">
 
         <div className="w-full space-y-2 flex justify-center">
-          <div className={`${screen_perc} text-left px-3`}>
+          <div className={`${screen_perc} text-left`}>
             <div className="text-[3rem] font-black">TATUM BURKE</div>
             <div className="text-[1.5rem] font-bold">She/her/hers</div>
           </div>
@@ -92,7 +92,7 @@ export default function Root() {
             </Carousel>
           </div>
         )}
-        <div className={`${screen_perc} pb-12 flex justify-between px-[1%]`}>
+        <div className={`${screen_perc} mb-12 flex justify-between px-[1%] border-2 border-black`}>
           <div className="py-2">
             <NavLink className="absolute !important" active={true} a="/" text="Home" />
           </div>
