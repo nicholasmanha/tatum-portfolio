@@ -75,6 +75,7 @@ function Writing() {
 
           <ReadMore linkText="More info">
             <ul className="list-disc list-inside  pl-6">
+              <li>Based on the life of Sarah Gerhardt, the first woman to surf Mavericks</li>
               <li>Logline: After her mother dies while out at sea, Cara, a spunky tomboy, continues her passion for surfing along the New England coast. As she grows up, she travels to California to find and surf the biggest waves possible.
 
               </li>

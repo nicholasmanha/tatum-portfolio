@@ -21,7 +21,7 @@ function Sound() {
         <div className="text-lg">
 
           <div className="mb-5">
-            <div className="font-bold text-xl"> <a className="!text-black !underline" href="https://www.youtube.com/watch?v=B6KjVD824rQ">7Hz</a> </div>
+            <div className="font-bold text-xl"> <a className="!text-black !underline" target="_blank" href="https://www.youtube.com/watch?v=B6KjVD824rQ">7Hz</a> </div>
             <div className="">Short Film ◦ Filmed: 2024 ◦ 11 m ◦ Directed Study Project <br />
               Sound Designer/Writer/Director/Producer/Editor
               <ul className="list-disc list-inside  pl-6">
@@ -119,28 +119,28 @@ function Sound() {
             </div>
           </div>
           <div className="mb-5">
-            <div className="font-bold text-xl">Rhythm Wizard</div>
-            <div className="">Short Film ◦Filmed: 2023 ◦ Released: 2024 ◦ 12 m<br />
+            <div className="font-bold text-xl"><a className="!text-black !underline" target="_blank" href="https://www.youtube.com/watch?v=sxUqrhXeqXg">Rhythm Wizard</a></div>
+            <div className="">Short Film ◦ Filmed: 2023 ◦ Released: 2024 ◦ 12 m<br />
               Sound Designer/Recordist
 
             </div>
           </div>
           <div className="mb-5">
-            <div className="font-bold text-xl"><a className="!text-black !underline" href="https://www.youtube.com/watch?v=ARRMDOsjwRs">The Roommate</a></div>
+            <div className="font-bold text-xl"><a className="!text-black !underline" target="_blank" href="https://www.youtube.com/watch?v=ARRMDOsjwRs">The Roommate</a></div>
             <div className="">Short Film ◦Filmed: 2023 ◦ Released: 2024 ◦ 25 m<br />
               Sound Recordist
 
             </div>
           </div>
           <div className="mb-5">
-            <div className="font-bold text-xl">BONK Commercial  https://www.youtube.com/watch?v=1GHbBpv376o</div>
+            <div className="font-bold text-xl">BONK Commercial</div>
             <div className="">Commercial ◦ Filmed: 2023 ◦ Released: 2024 <br />
               Sound Designer
 
             </div>
           </div>
           <div className="mb-5">
-            <div className="font-bold text-xl"><a className="!text-black !underline" href="https://www.youtube.com/watch?v=1GHbBpv376o">Pizza Heroes</a></div>
+            <div className="font-bold text-xl"><a className="!text-black !underline" target="_blank" href="https://www.youtube.com/watch?v=1GHbBpv376o">Pizza Heroes</a></div>
             <div className="">Animated Short ◦ Released: 2024 ◦ 3 m<br />
               Sound Designer
 
@@ -161,7 +161,7 @@ function Sound() {
             </div>
           </div>
           <div className="mb-5">
-            <div className="font-bold text-xl"> <a className="!text-black !underline" href="https://vimeo.com/ondemand/charlierackett/734596672">The Heart and the Brain Trilogy</a></div>
+            <div className="font-bold text-xl"> <a className="!text-black !underline" target="_blank" href="https://vimeo.com/ondemand/charlierackett/734596672">The Heart and the Brain Trilogy</a></div>
             <div className="">Feature Film Trilogy ◦ Filmed: 2021-2022 ◦ Released: 2022-2023 <br />
               Sound Recordist
 
@@ -185,7 +185,7 @@ function Sound() {
             </div>
           </div>
           <div className="mb-5">
-            <div className="font-bold text-xl"><a className="!text-black !underline" href="https://www.youtube.com/watch?v=W5kB2y4hZ8w">In the Waiting Room</a></div>
+            <div className="font-bold text-xl"><a className="!text-black !underline" target="_blank" href="https://www.youtube.com/watch?v=W5kB2y4hZ8w">In the Waiting Room</a></div>
             <div className="">Stage Play with Videos ◦ Performed: 2023<br />
               Sound Designer/Operator
               <ul className="list-disc list-inside  pl-6">
