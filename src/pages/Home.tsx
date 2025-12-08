@@ -19,9 +19,7 @@ function Home({}) {
       <div className="flex">
         <div className="w-3/5 text-lg pr-5">
           <p className="text-lg">
-            <div className="text-2xl font-bold inline">Hello!</div> My name is Tatum Burke, and I’m a sound designer,
-            screenwriter and filmmaker based in New England. Click the bars
-            above to take a look at my experience!
+            <div className="text-2xl font-bold inline">Hello!</div> My name is Tatum Burke, and I’m an audio professional, screenwriter and filmmaker based in Brooklyn, NY. My sound work includes production sound mixing, boom operating and post sound. Click the bars above to take a look at my experience!
           </p>
 
           <br></br>
