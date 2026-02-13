@@ -70,35 +70,35 @@ function Portfolio() {
             </ReadMore>
           </MovieListing>
         </div>
-        <div className="flex gap-8 mb-5">
-          <MovieListing
-            title="In the Middle"
-            info="Feature Film ◦ Filmed: 2022 ◦ Released: 2024 ◦ 1 hr 42 min"
-            url="https://www.youtube.com/embed/0ykBy6yk9ZI?si=IaB5mZ8ZegHKaVTC"
-            tagline="Writer/Director/Producer/Editor/Sound Designer"
-          >
-            <ReadMore linkText="About this film">
-              Logline:<br></br>
-              An ambitious yet burnout photography student rushes to complete an
-              unexpected final project amidst summer heat and shifting
-              friendships.
-            </ReadMore>
-          </MovieListing>
-          <MovieListing
-            title="Sofia the Dealer"
-            info="Feature Film ◦ Filmed: 2021 ◦ Released: 2022 ◦ 1 hr 27 min"
-            url="https://player.vimeo.com/video/697807012?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-            tagline="Writer/Director/Producer"
-          >
-            <ReadMore linkText="Awards and Info">
-              Logline: <br></br>
-              Sofia, a quiet high school senior, struggles to keep herself and her
-              ailing mother above the poverty line. But after a freak accident in
-              her backyard, she's given the chance to make more than enough. Set
-              during the Corona Virus pandemic.
-            </ReadMore>
-          </MovieListing>
-        </div>
+        {/* <div className="flex gap-8 mb-5">
+          // {/* <MovieListing
+          //   title="In the Middle"
+          //   info="Feature Film ◦ Filmed: 2022 ◦ Released: 2024 ◦ 1 hr 42 min"
+          //   url="https://www.youtube.com/embed/0ykBy6yk9ZI?si=IaB5mZ8ZegHKaVTC"
+          //   tagline="Writer/Director/Producer/Editor/Sound Designer"
+          // >
+          //   <ReadMore linkText="About this film">
+          //     Logline:<br></br>
+          //     An ambitious yet burnout photography student rushes to complete an
+          //     unexpected final project amidst summer heat and shifting
+          //     friendships.
+          //   </ReadMore>
+          // </MovieListing>
+          //  <MovieListing
+          //   title="Sofia the Dealer"
+          //   info="Feature Film ◦ Filmed: 2021 ◦ Released: 2022 ◦ 1 hr 27 min"
+          //   url="https://player.vimeo.com/video/697807012?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+          //   tagline="Writer/Director/Producer"
+          // >
+          //   <ReadMore linkText="Awards and Info">
+          //     Logline: <br></br>
+          //     Sofia, a quiet high school senior, struggles to keep herself and her
+          //     ailing mother above the poverty line. But after a freak accident in
+          //     her backyard, she's given the chance to make more than enough. Set
+          //     during the Corona Virus pandemic.
+          //   </ReadMore>
+          // </MovieListing> 
+        </div> */}
       </div>
       <div className="mb-[8rem]">
         <p className="font-semibold text-2xl mb-3">ORGANIZATIONS</p>

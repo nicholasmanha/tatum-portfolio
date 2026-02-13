@@ -152,7 +152,7 @@ function Writing() {
           </ReadMore>
         </div>
       </div>
-      <div className="mb-5">
+      {/* <div className="mb-5">
         <div className="font-bold text-xl"><a className="!text-black !underline" href="https://www.youtube.com/watch?v=0ykBy6yk9ZI+">‘In the Middle’</a>  </div>
         <div className="">Feature Film  ◦ Writer ◦ Genre: Coming-of-Age, Stoner Comedy
           <br />
@@ -166,7 +166,7 @@ function Writing() {
 
           </ReadMore>
         </div>
-      </div>
+      </div> */}
       <div className="mb-5">
         <div className="font-bold text-xl">‘Mock’ </div>
         <div className="">Feature Film  ◦ Writer ◦ Genre: Thriller, Drama
@@ -185,7 +185,7 @@ function Writing() {
           </ReadMore>
         </div>
       </div>
-      <div className="mb-5">
+      {/* <div className="mb-5">
         <div className="font-bold text-xl"><a className="!text-black !underline" href="https://vimeo.com/697807012?p=1l">‘Sofia the Dealer’</a> 
         </div>
         <div className="">Feature Film  ◦ Writer ◦ Genre: Drama, Thriller
@@ -200,7 +200,7 @@ function Writing() {
 
           </ReadMore>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }
