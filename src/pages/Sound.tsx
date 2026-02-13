@@ -32,6 +32,27 @@ function Sound() {
         </div>
         <div className="text-lg">
           <div className="mb-5">
+            <div className="font-bold text-xl">Take My Hands</div>
+            <div className="">
+              Short Film ◦ Filmed: January 2026 <br />
+              Sound Recordist
+            </div>
+          </div>
+          <div className="mb-5">
+            <div className="font-bold text-xl">Rosebud</div>
+            <div className="">
+              Short Film ◦ Filmed: December 2025 <br />
+              Sound Recordist
+            </div>
+          </div>
+          <div className="mb-5">
+            <div className="font-bold text-xl">Facebook Marketplace</div>
+            <div className="">
+              Short Film ◦ Filmed: December 2025 <br />
+              Sound Recordist
+            </div>
+          </div>
+          <div className="mb-5">
             <div className="font-bold text-xl">Meatmaster</div>
             <div className="">
               Short Film ◦ Filmed: December 2025 <br />
@@ -84,7 +105,7 @@ function Sound() {
             <div className="font-bold text-xl">It’s Your Move</div>
             <div className="">
               Short Film ◦ Filmed: September 2025  <br />
-              Sound Recordist
+              Sound Recordist/Sound Mixer
             </div>
           </div>
           <div className="mb-5">
@@ -362,11 +383,12 @@ function Sound() {
       <p>Professional grade portable audio recording kit:</p>
       <ul className="list-disc list-inside  pl-6">
         <li>Zoom F8n Pro Multi-Track Recorder w/Orca Sound Bag</li>
-        <li>Sennheiser MKE 600 Shotgun Microphone (Outdoor)</li>
+        <li>Sennheiser MKE 416 Shotgun Microphone (Outdoor)</li>
         <li>Audix SCX-1HC Microphone (Indoor)</li>
         <li>Sennheiser XS Lav Kit (x2)</li>
+        <li>Tentacle Sync E Timecode Generator (x2)</li>
         <li>MOVO Microphone Blimp / Auray Shock Absorber</li>
-        <li>RODE NTG2 Boom Pole</li>
+        <li>KTek 13' Boom Pole</li>
       </ul>
     </>
   );
